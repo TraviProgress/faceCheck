@@ -1,0 +1,26 @@
+/* ===== 1. BASE ===== */
+
+/* Quita los espacios que el navegador pone por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  padding: 16px;
+}
+
+/* ===== 2. PANEL (diseño para celular) ===== */
+
+.panel {
+  background-color: #1e293b;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
