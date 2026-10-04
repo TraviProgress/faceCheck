@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FaceCheck | Control de Asistencia</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
     <main class="panel">
-      <!-- Columna izquierda: logo e imagen del usuario -->
+      <!-- Columna izquierda: logo e imagen del trabajador -->
       <section class="columna-usuario">
         <p class="logo">FaceCheck</p>
         <div class="usuario">Foto del trabajador</div>
@@ -16,22 +16,22 @@
 
       <!-- Columna derecha: fecha, escáner y registro -->
       <section class="columna-escaner">
-  <p id="fecha">Fecha actual</p>
+        <p id="fecha">Fecha actual</p>
 
-  <div class="registro">
-    <label for="dni">Ingresa tu DNI</label>
-    <input type="text" id="dni" maxlength="8" inputmode="numeric">
+        <div class="registro">
+          <label for="dni">Ingresa tu DNI</label>
+          <input type="text" id="dni" maxlength="8" inputmode="numeric" />
 
-    <div class="botones">
-      <button type="button" id="btnEntrada">Entrada</button>
-      <button type="button" id="btnSalida">Salida</button>
-    </div>
-  </div>
+          <div class="botones">
+            <button type="button" id="btnEntrada">Entrada</button>
+            <button type="button" id="btnSalida">Salida</button>
+          </div>
+        </div>
 
-  <div class="escaner">Coloca tu rostro dentro del marco</div>
+        <div class="escaner">Coloca tu rostro dentro del marco</div>
 
-  <p id="mensaje"></p>
-</section>
+        <p id="mensaje"></p>
+      </section>
     </main>
   </body>
 </html>
