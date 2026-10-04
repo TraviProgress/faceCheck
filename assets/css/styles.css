@@ -24,3 +24,52 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
+/* ===== 3. COLUMNAS ===== */
+
+.columna-usuario,
+.columna-escaner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ===== 4. LOGO Y USUARIO ===== */
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #22d3ee;
+}
+
+.usuario {
+  background-color: #0f172a;
+  border-radius: 12px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94a3b8;
+}
+
+/* ===== 5. FECHA ===== */
+
+#fecha {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ===== 6. ESCÁNER ===== */
+
+.escaner {
+  height: 250px;
+  border: 3px dashed #22d3ee;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
