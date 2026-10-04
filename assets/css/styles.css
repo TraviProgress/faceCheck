@@ -73,3 +73,111 @@ body {
   padding: 20px;
   color: #94a3b8;
 }
+
+/* ===== 7. REGISTRO (DNI Y BOTONES) ===== */
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#dni {
+  padding: 12px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.botones {
+  display: flex;
+  gap: 12px;
+}
+
+.botones button {
+  flex: 1;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+#btnEntrada {
+  background-color: #22c55e;
+}
+
+#btnSalida {
+  background-color: #f97316;
+}
+
+.botones button:hover {
+  opacity: 0.8;
+}
+
+/* ===== 8. MENSAJE ===== */
+
+#mensaje {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ===== 7. REGISTRO (DNI Y BOTONES) ===== */
+
+.registro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#dni {
+  padding: 12px;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.botones {
+  display: flex;
+  gap: 12px;
+}
+
+.botones button {
+  flex: 1;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+#btnEntrada {
+  background-color: #22c55e;
+}
+
+#btnSalida {
+  background-color: #f97316;
+}
+
+.botones button:hover {
+  opacity: 0.8;
+}
+
+/* ===== 8. MENSAJE ===== */
+
+#mensaje {
+  text-align: center;
+  font-weight: bold;
+}
