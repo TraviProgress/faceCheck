@@ -42,3 +42,8 @@ La verificación facial y la lista de trabajadores son simuladas. En un sistema 
 ## Autor
 
 Fernando Travi – SENATI
+Arlen Arbildo – SENATI
+
+## Link de Figma
+
+https://www.figma.com/design/ZIttRYJ7VrctSEudPWGITV/Sin-t%C3%ADtulo?node-id=0-1&t=7gm4DwSa8DJHCyft-1
